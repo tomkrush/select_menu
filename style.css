@@ -1,0 +1,43 @@
+.field {
+	margin: 10px 0;
+	font-family: Helvetica;
+}
+
+label {
+	position: relative;
+	background: black;
+	padding: 5px 15px;
+	display: inline-block;
+	color: white;
+	-webkit-border-radius: 3px;
+}
+
+select.links {
+	visibility: hidden;
+}
+
+#popover {
+	position: absolute;
+	display: block;
+	background: rgba(0,0,0,.9);
+	color: white;
+	padding: 5px;
+	width: 300px;
+	-webkit-border-radius: 3px;
+}
+
+#popover ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#popover ul li {
+	margin: 0;
+	padding: 0;
+	padding: 4px;
+}
+
+#popover ul li:hover {
+	background: #333;
+}
